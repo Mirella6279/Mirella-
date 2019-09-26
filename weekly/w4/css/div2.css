@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* CSS Document */
+body {
+	background-color:#546382;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		color: antiquewhite;
+}
+
+#wrapper {
+	width:690px;
+	margin-left: 175px;
+	margin-right: 95px;
+}
+header {
+	width:500px;
+	margin-left: 30px;
+	font-size-adjust: 0.7em;
+}
+#content {
+	width: 940px;
+}
+small{
+	font-size: 0.7em;
+	margin-bottom: 20px;
+	display: block;
+	margin-top: 66px;
+}
+h1{
+	font-size: 0.7em;
+	width 440px;
+}
+h2{
+	font-size: 1.8em;
+	width: 440px;
+}
+h3{
+	font-size: 0.9em;
+	width: 400px;
+	margin-left: 20px;
+}
+h4 {
+	font-size: 0.9em;
+	width: 400px;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	margin-left: 30px;
+}
