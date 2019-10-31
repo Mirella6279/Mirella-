@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: black;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#wrapper{
+	width:1022px;
+	background-image: url("../burgerhome.png");
+		height:1023px;
+	margin: 0 auto;
+}
+#nav{
+	width:1024px;
+}
+#nav li{
+	display:inline;
+	float:left;
+	margin-left:20px;
+	color:white;
+	padding-left: 110px;
+	font-size: 20px;
+	
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#footer{
+	margin-top:936px;
+	float:left;
+	font-size: 16px;
+	color: white;
+	
+}
+
+#nav{
+	padding-top: 40px;
+	
+}
+
+#name{
+	float:left;
+	margin-left: 24px;
+	
+
+}
+#name h4{
+	font-size: 16px;
+}
+
+#two{
+	float:left;
+	margin-left: 97px;
+}
+#two h4{
+	font-size: 16px;
+}
+#three{
+	float:left;
+	margin-left: 160px;
+}
+#three h4{
+	font-size: 16px;
+}
+/*begging of menu code*/
+#wrapper2{
+	width:1022px;
+	margin:0 auto;
+}
+#nav2{
+	background-image:url("../burgerpics.png");
+	width:668px;
+	height:279px;
+}
+#nav2 li{
+	display:inline;
+	float:left;
+	margin-left:20px;
+	color:white;
+	padding-left: 50px;
+	font-size: 20px;
+	
+}
+
+#logo2 {
+	float:left;
+	width:10;
+	height:16;
+	
+}
+
+main h2{
+	color: #FCFBFB;
+	float: left;
+	margin-top: 65px;
+	font-size: 49px;
+	margin-left: 29px;	
+}
+
+
+#menu{
+	float:left;
+	width:1022px;
+}
+#float-left{
+	float: left;
+	width:600px;/*adjust width*/
+	
+}
+#column1{
+	color: white;
+	margin-left: 50px;
+	margin-top: 50px;
+	float:left;/*missing float left*/
+	margin-right:50px; 
+}
+
+#column1 h3{
+	margin-left: 40px;
+	font-size: 40px;
+}
+
+#column1 ol{
+	font-size: 18px;
+	width: 250px;
+	height: 350px;
+	margin-top: 20px;
+		
+}
+#column1 li{
+	margin-bottom: 10px;
+}
+
+#column2{
+	color:white;
+	margin-top: 50px;/*added margin top*/
+	float:left;/*missing float left*/
+}
+
+#column2 h3{
+	font-size: 40px;
+}
+
+#column2 ol{
+	font-size: 18px;
+	width: 250px;
+	height: 350px;
+	margin-top: 20px;
+}
+
+#column2 li{
+	margin-bottom: 10px;
+}
+
+#float-left2{
+	float:left;/*changed to left*/
+	width:600px;/*change width*/
+}
+#column3{
+	color: white;
+	float:left;/*missing float left*/
+	margin-left: 50px;/*so it line up with burgers*/
+	margin-right: 50px;
+}
+
+#column3 h3{
+	font-size: 40px;
+}
+
+#column3 ol{
+	font-size: 18px;
+	width: 250px;
+	height: 350px;/*dont need height*/
+	margin-top: 20px;
+}
+
+#column3 li{
+	margin-bottom: 10px;
+}
+
+#column4{
+	color:white;
+	float:left;/*missing float left*/
+	
+}
+
+#column4 h3{
+	font-size: 40px;
+	
+}
+
+#column4 ol{
+	font-size: 18px;
+	width: 250px;
+	height: 350px;/*dont need height*/
+	margin-top: 20px;
+}
+
+#column4 li{
+	margin-bottom: 10px;
+}
+
+#toppings{
+	color: white;
+	float:left;
+	width:800px;
+	margin-left:50px;/*so it lines up with burger and sandwiches*/
+}
+
+#toppings h3{
+	float: left;
+	font-size: 15px;
+	
+}
+
+#toppings p{
+	margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
