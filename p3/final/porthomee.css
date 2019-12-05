@@ -1,0 +1,202 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #ecb994;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#wrapper{
+	background-color: #ecb994;
+	width: 1660px;
+	
+}
+
+#topname{
+	background-color:#dfa87f; 
+	height: 60px;
+	width: 1500px;
+
+}
+
+#headerbox {
+		background-color:#dfa87f; 
+	width:69%;
+}
+#topname h1{
+	margin-left: 610px;
+	font-size: 38px;
+	font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif';
+	color: white;
+}
+#column {
+	background color:#dfa87f;
+	height: 27px;
+}
+#columnli{
+	float:center;
+	margin-left:250px;
+	matgin-top:20px;
+}
+
+.mainnav{
+	background-color: #dfa87f;
+	height: 27px;
+	width:1500px;
+}
+
+.mainnav li{
+	display:inline;
+	list-style:none;
+	margin-left:340px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+
+table{
+	width: 60%;
+}
+
+
+img {
+	width: 200px;
+	margin-left: 220px;
+	margin-top: 50px;
+}
+
+article{
+	
+}
+
+#aboutme{
+
+	margin-left: 400px;
+	margin-top: 55px;
+}
+
+#aboutme h1{
+	margin-left: 140px;
+	margin-bottom: 95px;
+	font-size: 46px;
+	
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: white
+		
+		
+	
+}
+
+#aboutme p{
+	align-content:space-around;
+	margin-left: -65px;
+	margin-top: 25px;
+   margin-bottom: 47px;
+	font-size: 15px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: white;
+}
+
+#aboutme img{
+	margin-left:133px;
+	width:400px;
+	height: 400px;
+
+	margin-bottom: 75px;
+	
+}
+
+#contactme{
+	margin-left: 480px;
+	margin-top: 50px;
+}
+
+#contactme h1{
+	margin-left: 140px;
+	margin-bottom: 95px;
+	font-size: 46px;
+	
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: white
+}
+
+#contactme p{
+	align-content:space-around;
+	margin-left: 40px;
+	margin-top: 25px;
+   margin-bottom: 47px;
+	font-size: 20px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: white;
+}
+
+#contactme img{
+	margin-left:60px;
+	width:430px;
+	height: 400px;
+
+	margin-bottom: 75px;
+	
+	
+}
+
+
+#resume{
+	float: left;
+	color: white;
+	margin-left: 700px;
+}
+	
+
+footer {
+		background-color: #dfa87f;
+		height: 40px;
+		float: left;
+	width: 1500px;
+	margin-top: 70px;
+	
+	}
+
+footer p {
+	font-size: 16px;
+	margin-left: 630px;
+	color: white;
+}
+	
